@@ -4,6 +4,10 @@ This project displays **time**, **day**, **date**, **temperature**, **humidity**
 
 ---
 
+## Video Demonstration
+Watch the live demo here:  
+[ Video Demonstration](https://vt.tiktok.com/ZSPJsF9co/)  
+
 ## Features
 
 - Displays **time** in 12-hour format with AM/PM.
@@ -19,6 +23,11 @@ This project displays **time**, **day**, **date**, **temperature**, **humidity**
 
 ---
 
+## Disclaimer
+
+This project is for educational and experimental purposes only. The creator is not responsible for any damage, injury, or loss caused by using this project. Always handle electronics safely and operate the device in a controlled environment.
+
+---
 ## Screenshot
 
 ![Arduino LED Matrix Clock](./circuit.png)
