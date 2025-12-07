@@ -1,6 +1,6 @@
 # Arduino LED Matrix Clock with Temperature, Humidity, and Greetings
 
-This project displays **time**, **day**, **date**, **temperature**, **humidity**, and **greeting messages** on a 4x MAX7219 LED matrix using **Arduino Uno**, **DS1302 RTC**, and **Adafruit AHT20/AHT30 sensor**. It includes smooth page transitions, scrolling greetings, and an **auto-restart at 3:00 AM** using the watchdog timer.
+This project displays **time**, **day**, **date**, **temperature**, **humidity**, and **greeting messages** on a 4x MAX7219 LED matrix using **Arduino Uno**, **DS1302 RTC**, and **Adafruit AHT10/AHT30 sensor**. It includes smooth page transitions, scrolling greetings, and an **auto-restart at 3:00 AM** using the watchdog timer.
 
 ---
 
@@ -16,6 +16,12 @@ This project displays **time**, **day**, **date**, **temperature**, **humidity**
 - Smooth **fade-in/fade-out** animations for page transitions.
 - **Auto-restart at 3:00 AM** for system refresh using watchdog timer.
 - Easy to customize display duration, greeting times, and LED intensity.
+
+---
+
+## Screenshot
+
+![Arduino LED Matrix Clock](./circuit.png)
 
 ---
 
@@ -39,7 +45,7 @@ This project displays **time**, **day**, **date**, **temperature**, **humidity**
 | VCC        | 5V             |
 | GND        | GND            |
 
-### AHT20 / AHT30 Sensor (I2C)
+### AHT10 / AHT30 Sensor (I2C)
 | Sensor Pin | Arduino Uno Pin |
 |------------|----------------|
 | VCC        | 3.3V / 5V      |
@@ -48,3 +54,13 @@ This project displays **time**, **day**, **date**, **temperature**, **humidity**
 | SCL        | A5             |
 
 ---
+
+## Author
+
+- Created with passion ❤ by **Roy Cuadra** 
+- Updated Date: 12-08-2025
+
+---
+
+**Thank you for checking out this project!** 
+You are welcome to **fork**, **improve**, or **use** it for learning purposes.
