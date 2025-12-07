@@ -1,4 +1,4 @@
-# Arduino LED Matrix Clock with Temperature, Humidity, and Greetings
+# Arduino Uno R3 Digital Clock
 
 This project displays **time**, **day**, **date**, **temperature**, **humidity**, and **greeting messages** on a 4x MAX7219 LED matrix using **Arduino Uno**, **DS1302 RTC**, and **Adafruit AHT10 sensor**. It includes smooth page transitions, scrolling greetings.
 
