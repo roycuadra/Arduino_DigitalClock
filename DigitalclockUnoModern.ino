@@ -51,9 +51,7 @@ void setup() {
   rtc.Begin();
 
   // Uncomment first upload to set time, then comment it back
-  // rtc.SetIsWriteProtected(false);
-  // rtc.SetDateTime(RtcDateTime(__DATE__, __TIME__));
-  // rtc.SetIsWriteProtected(true);
+  rtc.SetDateTime(RtcDateTime(__DATE__, __TIME__));
 
   aht.begin();
 
