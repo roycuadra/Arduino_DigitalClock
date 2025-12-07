@@ -1,6 +1,6 @@
 # Arduino LED Matrix Clock with Temperature, Humidity, and Greetings
 
-This project displays **time**, **day**, **date**, **temperature**, **humidity**, and **greeting messages** on a 4x MAX7219 LED matrix using **Arduino Uno**, **DS1302 RTC**, and **Adafruit AHT10/AHT30 sensor**. It includes smooth page transitions, scrolling greetings, and an **auto-restart at 3:00 AM** using the watchdog timer.
+This project displays **time**, **day**, **date**, **temperature**, **humidity**, and **greeting messages** on a 4x MAX7219 LED matrix using **Arduino Uno**, **DS1302 RTC**, and **Adafruit AHT10 sensor**. It includes smooth page transitions, scrolling greetings.
 
 ---
 
@@ -45,7 +45,7 @@ This project displays **time**, **day**, **date**, **temperature**, **humidity**
 | VCC        | 5V             |
 | GND        | GND            |
 
-### AHT10 / AHT30 Sensor (I2C)
+### AHT10 Sensor (I2C)
 | Sensor Pin | Arduino Uno Pin |
 |------------|----------------|
 | VCC        | 3.3V / 5V      |
